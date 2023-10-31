@@ -3,21 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Enlaces y listas</title>
 </head>
 <body>
-  <section>
-    <h2>Red Social Favorita:</h2>
-    <a target="_blank" href="https://stackoverflow.com/">Stack-Overflow</a>
-  </section><br>
-  <hr>
-  <section>
-    <h2>Pasatiempos:</h2>
-    <ul>
-      <li> Programacion Web</li>
-      <li> Escuchar Musica</li>
-      <li> Investigar Novedades Tecnologicas</li>
-    </ul>
-  </section>
+  <main class="h-screen text-white bg-gradient-to-r from-cyan-500 to-blue-500 p-16">
+    <section>
+      <h2 class="font-semibold mb-4 text-4xl">Red Social Favorita :</h2>
+      <a class="text-lg" target="_blank" href="https://stackoverflow.com/">Stack-Overflow</a>
+    </section><br>
+    <hr class="my-4">
+    <section>
+      <h2 class="font-semibold mb-4 text-4xl">Pasatiempos</h2>
+      <ul class="text-lg">
+        <li> Programacion Web</li>
+        <li> Escuchar Musica</li>
+        <li> Investigar Novedades Tecnologicas</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
